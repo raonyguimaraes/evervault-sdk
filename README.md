@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/evervault/evervault-sdk/master/logo.png" height="50" />
+<img src="https://raw.githubusercontent.com/evervault/evervault-sdk/master/logo.png" height="35" />
 
 ## Installation
 
