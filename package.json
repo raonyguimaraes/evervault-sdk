@@ -10,10 +10,17 @@
   "bugs": {
     "url": "https://github.com/evervault/evervault-sdk/issues"
   },
+  "scripts": {
+    "build": "./node_modules/browserify/bin/cmd.js --no-commondir -i node-webcrypto-ossl browser.js > dist/bundle.js"
+  },
   "license": "MIT",
   "homepage": "https://evervault.com/",
   "dependencies": {
+    "@babel/core": "^7.6.2",
     "aes-js": "^3.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
     "node-webcrypto-ossl": "^1.0.48",
     "request": "^2.88.0"
   }

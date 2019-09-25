@@ -1,7 +1,16 @@
 const request = require('request')
-const WebCrypto = require('node-webcrypto-ossl')
-const crypto = new WebCrypto()
 const aesjs = require('aes-js')
+
+if (typeof window === "undefined") {
+  var window = {}
+}
+
+if (typeof window.crypto === "undefined") {
+  const WebCrypto = require("node-webcrypto-ossl");
+  var crypto = new WebCrypto();
+} else {
+  var crypto = window.crypto;
+}
 
 const config = {
   api: {
