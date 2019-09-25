@@ -1,0 +1,20 @@
+{
+  "name": "evervault",
+  "version": "0.1.0",
+  "description": "Secure runtimes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evervault/evervault-sdk.git"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/evervault/evervault-sdk/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://evervault.com/",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "node-webcrypto-ossl": "^1.0.48",
+    "request": "^2.88.0"
+  }
+}
