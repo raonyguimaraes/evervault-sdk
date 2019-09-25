@@ -20,7 +20,7 @@ const evervault = require('evervault')('YOUR_API_KEY')
 
 // Deploy an evervault cage from a Node.js function
 evervault.cages.deploy(function () {
-  // For example, calculate the distance between the two points
+  // For example, calculate the distance between the two latitude/longitude pairs
   const location = params.location.split(",")
   const destination = params.destination.split(",")
   
@@ -37,7 +37,7 @@ evervault.cages.deploy(function () {
   }
   
   dist = Math.acos(dist);
-  dist = dist * 180/Math.PI;
+  dist = dist * 180 / Math.PI;
   dist = dist * 60 * 1.1515 * 1.609344;
 
   send(JSON.stringify({
