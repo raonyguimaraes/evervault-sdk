@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/evervault.svg)](https://npmjs.org/package/evervault)
 [![Downloads/week](https://img.shields.io/npm/dw/evervault-sdk.svg)](https://npmjs.org/package/evervault-sdk)
-[![License](https://img.shields.io/npm/l/evervault-sdk.svg)](https://github.com/evervault/evervault-sdk/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/evervault.svg)](https://github.com/evervault/evervault-sdk/blob/master/package.json)
 
 ## Installation
 
